@@ -75,3 +75,15 @@ body {
 .title h1 {
     font-size: 8rem;
 }
+
+/* debut du traitement des slides */
+.slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.slide > img {
+    width: 70%;
+}
