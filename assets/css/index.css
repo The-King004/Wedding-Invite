@@ -87,3 +87,34 @@ body {
 .slide > img {
     width: 70%;
 }
+
+/* debut du traitement des texts */
+.text {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--title-color);
+    color: var(--white-color);
+    padding: 6rem;
+    margin-top: 5rem;
+}
+
+.text h2 {
+    font-size: 7rem;
+    flex: 1;
+    font-weight: 500;
+}
+
+.text .text_p {
+    flex: 2;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    font-size: 2rem;
+}
+
