@@ -428,3 +428,28 @@ body {
 .itinerary .itinerary_12pm .text .box p {
     font-size: 1.8rem;
 }
+
+/* debut du traitement de rsvp */
+
+.rsvp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    color: var(--color-link);
+    gap: 5rem;
+    margin-top: 25rem;
+    padding: 0 25rem;
+}
+
+.rsvp h2 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.rsvp p {
+    font-size: 2rem;
+    opacity: .8;
+    font-weight: 500;
+}
