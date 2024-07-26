@@ -453,3 +453,140 @@ body {
     opacity: .8;
     font-weight: 500;
 }
+
+/* debut du traitement de input */
+
+.form {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form form {
+    width: 40%;
+    height: 90%;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 4rem;
+    text-transform: capitalize;
+}
+
+.form form .one {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    gap: 4rem;
+}
+
+.form form .one .inp {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form label {
+    font-size: 1.8rem;  
+    margin-bottom: 1rem;
+}
+
+.form form .one .inp input {
+    width: 25rem;
+    height: 4.5rem;
+    outline: none;
+    border: .2rem solid var(--title-color);
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.two input {
+    width: 100%;
+    height: 5rem;
+    outline: none;
+    border: .2rem solid var(--title-color);
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    font-family: var(--font-family);
+}
+
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio .no-name {
+    display: flex;
+    gap: 3rem;
+}
+
+.radio .no-name > div {
+    border: .2rem solid var(--title-color);
+    padding: 0.8rem 2rem;
+}
+
+.radio .no-name > div > input {
+    width: 3rem;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+}
+
+.add  .boxe {
+    border: .2rem solid var(--title-color);
+    padding: 0.8rem 2rem;
+}
+
+.add > .no-name {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.add2 {
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+}
+
+/* debut de traitement de nav2 */
+
+.nav2  {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 15rem;
+}
+
+.nav2 li {
+    list-style: none;
+}
+
+.nav2 li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-link);
+}
+
+.nav2 li a:hover {
+    text-decoration: underline;
+}
